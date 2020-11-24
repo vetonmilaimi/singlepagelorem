@@ -1,0 +1,99 @@
+* {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: Verdana;;
+}
+
+body {
+    background-color: #383838;
+}
+
+.container {
+    margin: 5px;
+}
+
+hr {
+    margin: 15px 5px;
+}
+
+/* ####### Top-Navigation ########## */
+nav .topnav {
+    background-color: #575757;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav .topnav li a {
+    color: gainsboro;
+    float: left;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 14px 35px;
+}
+
+nav .topnav li a:hover {
+    background-color: gainsboro;
+    color: #575757;
+}
+
+nav .topnav li a.active {
+    background-color: #e09f3e;
+    color: white;
+}
+
+nav .topnav .icon {
+    display: none;
+}
+
+@media only screen and (max-width: 900px) {
+    nav .topnav li a {
+        display: none;
+    }
+
+    .topnav li a.icon {
+        float: right;
+        display: block;
+    }
+
+    .topnav.responsive {
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive li {
+        text-align: center;
+    }
+
+    .topnav.responsive li a {
+        float: none;
+        display: block;
+    }
+}
+/* ####### Top-Navigation ########## */
+
+
+/* ####### Footer ######### */
+footer {
+    background-color: #575757;
+    padding: 15px;
+    /* margin: 5px; */
+}
+
+footer a {
+    text-decoration: none;
+    color: gold;
+}
+
+footer a:hover {
+    color: aqua;
+}
+/* ####### End of Footer ######### */

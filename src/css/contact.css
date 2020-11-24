@@ -1,0 +1,25 @@
+.contact {
+    background-color: #575757;
+    padding: 5px;
+    margin: 5px;
+}
+
+.contact h1 {
+    font-size: 40px;
+    color: orange;
+}
+
+.contact p {
+    padding-left: 15px;
+    text-align: left;
+}
+
+.contact p ul li {
+    text-decoration-style: none;
+    list-style-type: none;
+    text-align: left;
+}
+
+.contact img {
+    width: 50%;
+}

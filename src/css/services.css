@@ -1,0 +1,25 @@
+.services {
+    background-color: #575757;
+    padding: 5px;
+    margin: 5px;
+}
+
+.services h1 {
+    font-size: 40px;
+    color: orange;
+}
+
+.services p {
+    padding-left: 15px;
+    text-align: left;
+}
+
+.services p ul li {
+    text-decoration-style: none;
+    list-style-type: none;
+    text-align: left;
+}
+
+.services img {
+    width: 50%;
+}

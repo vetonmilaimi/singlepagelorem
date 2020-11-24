@@ -1,0 +1,25 @@
+.about {
+    background-color: #575757;
+    padding: 5px;
+    margin: 5px;
+}
+
+.about p {
+    padding-left: 15px;
+    text-align: left;
+}
+
+.about img {
+    width: 50%;
+}
+
+.about h1 {
+    font-size: 40px;
+    color: orange;
+}
+
+@media only screen and (max-width: 900px) {
+    .about img {
+        width: 80%;
+    }
+}
